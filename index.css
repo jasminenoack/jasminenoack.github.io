@@ -1,12 +1,12 @@
 #banner{
-width: 96%;
+width: 80%;
 height: 30%;
-top: 2%;
-left: 2%;
+top: 0%;
+left: 10%;
 background-image: url("banner.png");
 position: absolute;
 z-index:2;
-background-size: 100% 100%
+background-size: 100% 100%;
 }
 
 #content{ 
@@ -18,5 +18,137 @@ left: 0;
 margin: 0; 
 background-image: url("readingabook.jpg");
 position: absolute;
-background-size: 100% 100%
+background-size: 100% 100%;
+}
+
+#portfolio{
+z-index:2;
+height: 30%;
+width:25%;
+top: 20%;
+right: 5%;
+position: absolute;
+background-image: url("portfolio.png");
+background-size: 100% 100%;
+opacity:0.7
+}
+
+#portfoliotext{
+z-index:3;
+position: absolute;
+height: 15%; 
+width: 10%; 
+top:28%; 
+right:12%; 
+background-color:yellow;
+}
+
+
+#future {
+height: 30%;
+width:25%;
+top: 55%;
+right: 10%;
+position: absolute;
+z-index:2;
+background-image: url("futureprojects.png");
+background-size: 100% 100%;
+opacity:0.7
+}
+
+#futuretext{
+z-index:3;
+position: absolute;
+height: 15%; 
+width: 12%; 
+top:63%; 
+right:17%; 
+background-color:yellow;
+}
+
+#resources{
+z-index:2;
+height: 30%;
+width:25%;
+top: 55%;
+left: 5%;
+position: absolute;
+background-image: url("resources.png");
+background-size: 100% 100%;
+opacity:0.7
+}
+
+#resourcestext{
+z-index:3;
+position: absolute;
+height: 12%; 
+width: 14%; 
+top:70%; 
+left:10%; 
+background-color:yellow;
+}
+
+#contact{
+z-index:2;
+height: 30%;
+width:25%;
+top: 20%;
+left: 15%;
+position: absolute;
+background-image: url("contact.png");
+background-size: 100% 100%;
+opacity:0.7
+}
+
+#contacttext{
+z-index:3;
+position: absolute;
+height: 13%; 
+width: 13%; 
+top:25%; 
+left:22%; 
+background-color:yellow;
+}
+
+#blog{
+z-index:2;
+height: 30%;
+width:25%;
+top: 65%;
+left: 35%;
+position: absolute;
+background-image: url("blog.png");
+background-size: 100% 100%;
+opacity:0.7;
+}
+
+#blogtext{
+z-index:3;
+position: absolute;
+height: 14%; 
+width: 17%; 
+top:76%; 
+left:39%; 
+background-color:yellow;
+}
+
+#socialmedia{
+top:-2%;
+height:60%;
+width:18%;
+left:2%;
+z-index:2;
+position:absolute;
+background-image: url("socialmedia.png");
+background-size: 100% 100%;
+}
+
+#socialmediacontent{
+z-index:3;
+position: absolute;
+height: 37%; 
+width: 13%; 
+top:4%; 
+left:4%; 
+background-color:yellow;
 }
