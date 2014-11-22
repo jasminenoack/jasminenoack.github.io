@@ -7,7 +7,15 @@ background-image: url("banner.png");
 position: absolute;
 z-index:2;
 background-size: 100% 100%;
+color:white;
+text-align:center;
 }
+
+h1{
+position: relative;
+top:14%;
+}
+
 
 #content{ 
 /*overflow-y: auto;*/
@@ -149,6 +157,6 @@ position: absolute;
 height: 37%; 
 width: 13%; 
 top:4%; 
-left:4%; 
+left:4.5%; 
 background-color:yellow;
 }
