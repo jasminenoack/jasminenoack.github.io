@@ -1,58 +1,383 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Website</title>
-  <link href="index.css" type="text/css" rel="stylesheet">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jasmine Noack</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
-<div id="background"></div>
 
-<div id="title">
-  <h1> Jasmine Ardis Noack </h1>
-</div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Jasmine Noack.</h1>
+            <h3>I'm a <span>Web Developer</span> based in New York city.
+              Scroll to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://plus.google.com/+jasminenoack"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="http://www.linkedin.com/in/jasminenoack"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/jasminenoack"><i class="fa fa-github"></i></a></li>
+               <li><a href="http://www.jasminenoack.tumblr.com"><i class="fa fa-tumblr-square"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-<section>
-  <h3> Projects </h3>
-  <ul>
-    <li><a href="https://sheltered-badlands-3596.herokuapp.com/">Sudoku Rails App</a></li>
-    <li><a href="http://jasminenoack.github.io/bejeweled/">Bejeweled</a></li>
-    <li><a href="http://jasminenoack.github.io/breakout/">Breakout</a></li>
-  </ul>
-</section>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+<p>I am a web developer with experience in Ruby on Rails and JavaScript. I have degrees from both NYU(BA) and the New School(MA) and a background in Philosophy and Psychology.</p>
+
+<p>Technology has always been my main interest. Whether that was taking apart and reassembling computers to make them work better or taking HTML, ArcMAP and SPSS classes. I have always loved logic and solving problems so programming is a natural fit for me. I am excited to make it my new career.</p>
+
+<p>In addition to programming, my interests include logic puzzles(Sudoku, Kakuro), knitting, and video games. And of course I am always interested in learning new things tech or otherwise.</p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jasmine Noack</span><br>
+						   <span>670 4th Ave, Apt 3<br>
+						         Brooklyn, New York, 11232
+                     </span><br>
+						   <span>(917)691-0399</span><br>
+                     <span>jasminenoack@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="Jasmine-Noack.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+     <!-- Skills
+     ----------------------------------------------- -->
+     <div class="row skill">
+
+        <div class="three columns header-col">
+           <h1><span>Skills</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+       <div class="bars">
+
+          <ul class="skills">
+            <li><em>Ruby</em></li>
+            <li><em>Ruby on Rails</em></li>
+           <li><em>Javascript</em></li>
+           <li><em>Backbone.js</em></li>
+           <li><em>SQL</em></li>
+          <li><em>jQuery</em></li>
+          <li><em>git</em></li>
+          <li><em>HTML</em></li>
+          <li><em>CSS</em></li>
+          <li><em>SPSS</em></li>
+          <li><em>ArcMAP</em></li>
+          <li><em>Python(learning)</em></li>
+         </ul>
+
+       </div><!-- end skill-bars -->
+
+     </div> <!-- main-col end -->
+
+     </div> <!-- End skills -->
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>App Academy</h3>
+                  <p class="info">Full-stack Web Development Course <span>&bull;</span> <em class="date">2015</em></p>
+                  <p>
+                    An immersive Web Development bootcamp.</p><p>
+                    Acceptance rate < 5%
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>The New School</h3>
+                  <p class="info">M.A. Psychology <span>&bull;</span> <em class="date">2011</em></p>
+
+                  <p>
+                    Relevant Coursework: Statistics, SPSS
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>The New York University</h3>
+                  <p class="info">B.A. Philosophy <span>&bull;</span> <em class="date">2009</em></p>
+
+                  <p>
+                    Relevant Coursework: ArcMap, Modal Logic
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Job Path</h3>
+                  <p class="info">Medicaid Service Coordinator <span>&bull;</span> <em class="date">July 2013 - January 2015</em></p>
+
+                  <p>
+                    Assisted individuals with disabilities gaining access to services. </p><p>
+  Achieved a 98% employment rate.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AHRC</h3>
+                  <p class="info">Residence Manager <span>&bull;</span> <em class="date">July 2011 - July 2013</em></p>
+
+                  <p>
+                    Managed a residence for people with disabilities. </p><p>
+  Improve staff attendance rates by 36%.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
 
 
 
-  <div id="footer">
-    <ul>
-      <li class="foot">
-        <a href='https://github.com/jasminenoack'>
-          <img src='Octocat.png'>
-        </a>
-      </li>
-      <li class="foot">
-        <a href='http://www.linkedin.com/in/jasminenoack'>
-          <img src="linkedin_logo.png">
-        </a>
-      </li>
-      <li class="foot">
-        <a href='https://twitter.com/jasminenoack'>
-          <img src='Twitter.png'>
-        </a>
-      </li>
-      <li class="foot">
-        <a href='http://www.jasminenoack.tumblr.com'>
-          <img src='tumbler.png'>
-        </a>
-      </li>
-      <li class="foot">
-        <a href='https://plus.google.com/+jasminenoack'>
-          <img src='google.png'>
-        </a>
-      </li>
-      <li class="foot-right"> &copy; Jasmine Noack</li>
-    </ul>
 
-  </div>
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="http://www.knowledgease.com" title="">
+                        <img alt="" src="images/portfolio/knowledge.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>KnowledgEase.com</h5>
+                              <p>Single-page question app inspired by Quora in Backbone, jQuery, and Rails.</p>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                     <h5>KnowledgEase.com</h5>
+                         <p>Single-page question app inspired by Quora in Backbone, jQuery, and Rails.</p>
+<p>Integrates typeahead.js, jQcloud, and paper-collapse with custom CSS.</p>
+                       <p>Uses custom ActiveRecord queries to create a news feed. </p>
+                         <p>Implements notifications on various resources the user subscribes to.</p>
+                           <p>Custom AJAX requests to DRY up Backbone code, by not creating models for join tables.
+</p>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="http://sudoku-on-rails.herokuapp.com/" title="">
+                        <img alt="" src="images/portfolio/sudoku.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Sudoku-on-rails</h5>
+                              <p>A rails/backbone app that solves sudoku problems.t</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                     <h5>Sudoku-on-rails</h5>
+                         <p>A rails/backbone app that solves sudoku problems.t</p>
+                     <p>Implemented in TDD-style with RSpec. </p>
+                       <p>Uses backtracking algorithm with pruning to optimize solving algorithm.</p>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="http://jasminenoack.github.io/bejeweled" title="">
+                        <img alt="" src="images/portfolio/bejeweled.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Bejeweled</h5>
+                              <p>A classic game rebuilt for the browser in jQuery</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                     <h5>Bejeweled</h5>
+                         <p>A classic game rebuilt for the browser in jQuery</p>
+
+<p>Leverages CSS transitions to allow blocks to move simultaneously.</p>
+                  </div>
+          		</div> <!-- item end -->
+              <footer>
+
+                 <div class="row banner">
+                       <ul class="social">
+                          <li><a href="https://plus.google.com/+jasminenoack"><i class="fa fa-google-plus"></i></a></li>
+                          <li><a href="http://www.linkedin.com/in/jasminenoack"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="https://github.com/jasminenoack"><i class="fa fa-github"></i></a></li>
+                          <li><a href="http://www.jasminenoack.tumblr.com"><i class="fa fa-tumblr-square"></i></a></li>
+                       </ul>
+                 </div>
+
+              </footer> <!-- Header End -->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
