@@ -1,3 +1,3 @@
 # jasminenoack.github.io
 
-[Personal Website](jasminenoack.com)
+[Personal Website](http://www.jasminenoack.com)
