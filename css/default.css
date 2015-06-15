@@ -45,7 +45,7 @@ img {
 
 div.sidebar {
   display: block;
-  width: 30%;
+  width: 20%;
   height: 100%;
   background: #F3843E;
   color: #393939;
@@ -66,7 +66,7 @@ h3 {
 
 div.content {
     display: block;
-    width: 70%;
+    width: 80%;
     height: 100%;
     background: #393939;
     color: #0C7BC1;
