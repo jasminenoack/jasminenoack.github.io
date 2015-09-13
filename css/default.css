@@ -70,9 +70,10 @@ div.content {
     height: 100%;
     background: #393939;
     color: #0C7BC1;
-    position: absolute;
+    position: relative;
     right: 0;
     padding: 20px;
+    float: right;
 }
 
 .social {
