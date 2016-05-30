@@ -9,7 +9,7 @@ const CardExampleWithoutAvatar = () => (
     <CardHeader
       title="Skills"
       subtitle="'Our knowledge can only be finite, while our ignorance must necessarily be infinite.' - Karl Popper"
-      avatar="./images/baloo_avatar.JPG"
+      avatar="./images/baloo_avatar.jpg"
     />
     <CardText style={{
         background: "url(./images/airplane.JPG) no-repeat",

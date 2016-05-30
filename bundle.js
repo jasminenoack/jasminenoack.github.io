@@ -42303,7 +42303,7 @@
 	    _react2.default.createElement(_Card.CardHeader, {
 	      title: 'About',
 	      subtitle: '\'Sarcasm and compassion are two of the qualities that make life on Earth tolerable.\' - Nick Hornby',
-	      avatar: './images/baloo_avatar.JPG'
+	      avatar: './images/baloo_avatar.jpg'
 	    }),
 	    _react2.default.createElement(
 	      _Card.CardText,
@@ -42389,7 +42389,7 @@
 	        _react2.default.createElement(_Card.CardHeader, {
 	            title: 'Skills',
 	            subtitle: '\'Our knowledge can only be finite, while our ignorance must necessarily be infinite.\' - Karl Popper',
-	            avatar: './images/baloo_avatar.JPG'
+	            avatar: './images/baloo_avatar.jpg'
 	        }),
 	        _react2.default.createElement(
 	            _Card.CardText,
@@ -42599,7 +42599,7 @@
 	        _react2.default.createElement(_Card.CardHeader, {
 	            title: 'Links',
 	            subtitle: '\'If you are not too long, I will wait here for you all my life.\' - Oscar Wilde',
-	            avatar: './images/baloo_avatar.JPG'
+	            avatar: './images/baloo_avatar.jpg'
 	        }),
 	        _react2.default.createElement(
 	            _Card.CardText,

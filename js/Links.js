@@ -8,7 +8,7 @@ const CardExampleWithoutAvatar = () => (
     <CardHeader
       title="Links"
       subtitle="'If you are not too long, I will wait here for you all my life.' - Oscar Wilde"
-      avatar="./images/baloo_avatar.JPG"
+      avatar="./images/baloo_avatar.jpg"
     />
     <CardText style={{
         background: "url(./images/cat_comp.JPG) no-repeat",

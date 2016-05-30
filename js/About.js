@@ -7,7 +7,7 @@ const CardExampleWithoutAvatar = () => (
     <CardHeader
       title="About"
       subtitle="'Sarcasm and compassion are two of the qualities that make life on Earth tolerable.' - Nick Hornby"
-      avatar="./images/baloo_avatar.JPG"
+      avatar="./images/baloo_avatar.jpg"
     />
     <CardText style={{
         background: "url(./images/ocean.JPG) no-repeat",
