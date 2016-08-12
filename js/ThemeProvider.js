@@ -110,7 +110,7 @@ const theme = getMuiTheme(
         },
         "listItem": {
             "nestedLevelDepth": 18,
-            "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+            "secondaryTextColor": "#ECEFF1",
             "leftIconColor": "#757575",
             "rightIconColor": "#757575"
         },

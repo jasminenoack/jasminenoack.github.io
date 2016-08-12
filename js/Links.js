@@ -19,6 +19,7 @@ const CardExampleWithoutAvatar = () => (
             <ListItem
                 primaryText="Bejeweled"
                 secondaryText="The classic gem swapping game in javaScript."
+                secondaryTextColor="#ECEFF1"
                 primaryTogglesNestedList={true}
                 nestedItems={[
                     <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/bejeweled/" target="_blank"/>,

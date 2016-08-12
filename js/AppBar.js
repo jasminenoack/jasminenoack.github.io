@@ -41,6 +41,7 @@ const LeftMenu = (
 const PageAppBar = () => (
   <AppBar
     title="Jasmine Noack"
+    style={{opacity: 0.8}}
     iconElementLeft={LeftMenu}
     iconElementRight={RightIcon}
   />
