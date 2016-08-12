@@ -3,7 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {fade} from 'material-ui/utils/colorManipulator';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AppBar from 'material-ui/AppBar';
-import {blue900, purple900} from 'material-ui/styles/colors';
+import {blue900, purple500} from 'material-ui/styles/colors';
 
 const theme = getMuiTheme(
     {
@@ -302,9 +302,9 @@ const theme = getMuiTheme(
             "desktopSubheaderHeight": 48,
             "desktopToolbarHeight": 56
         },
-        "fontFamily": "Roboto, sans-serif",
+        "fontFamily": "sans-serif",
         "palette": {
-            "primary1Color": purple900,
+            "primary1Color": purple500,
             "primary2Color": blue900,
             "primary3Color": "#757575",
             "accent1Color": "#ff4081",
@@ -385,6 +385,8 @@ const theme = getMuiTheme(
         }
     }
 );
+
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 
 class Main extends React.Component {
   render() {
