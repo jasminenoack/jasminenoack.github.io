@@ -62,6 +62,15 @@ const CardExampleWithoutAvatar = () => (
                     <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/trigons" target="_blank"/>
                 ]}
           />
+          <ListItem
+                primaryText="Conway's Game of Life"
+                secondaryText="Simple game of life visualization."
+                primaryTogglesNestedList={true}
+                nestedItems={[
+                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/conways_game_of_life/" target="_blank"/>,
+                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/conways_game_of_life" target="_blank"/>
+                ]}
+          />
         </List>
     </CardText>
   </Card>

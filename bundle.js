@@ -42493,6 +42493,12 @@
 	                    secondaryText: 'An implementation of a math based puzzle game.',
 	                    primaryTogglesNestedList: true,
 	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/trigons/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/trigons', target: '_blank' })]
+	                }),
+	                _react2.default.createElement(_List.ListItem, {
+	                    primaryText: 'Conway\'s Game of Life',
+	                    secondaryText: 'Simple game of life visualization.',
+	                    primaryTogglesNestedList: true,
+	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/conways_game_of_life/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/conways_game_of_life', target: '_blank' })]
 	                })
 	            )
 	        )
