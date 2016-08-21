@@ -71,6 +71,14 @@ const CardExampleWithoutAvatar = () => (
                     <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/conways_game_of_life" target="_blank"/>
                 ]}
           />
+          <ListItem
+                primaryText="Go gif generator"
+                secondaryText="Simple gif generator to get a feel for Go."
+                primaryTogglesNestedList={true}
+                nestedItems={[
+                    <ListItem key="live" className="live" primaryText="live" href="http://golang-images.herokuapp.com/" target="_blank"/>,
+                ]}
+          />
         </List>
     </CardText>
   </Card>

@@ -42499,6 +42499,12 @@
 	                    secondaryText: 'Simple game of life visualization.',
 	                    primaryTogglesNestedList: true,
 	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/conways_game_of_life/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/conways_game_of_life', target: '_blank' })]
+	                }),
+	                _react2.default.createElement(_List.ListItem, {
+	                    primaryText: 'Go gif generator',
+	                    secondaryText: 'Simple gif generator to get a feel for Go.',
+	                    primaryTogglesNestedList: true,
+	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://golang-images.herokuapp.com/', target: '_blank' })]
 	                })
 	            )
 	        )
