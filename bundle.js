@@ -42505,6 +42505,12 @@
 	                    secondaryText: 'Simple gif generator to get a feel for Go.',
 	                    primaryTogglesNestedList: true,
 	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://golang-images.herokuapp.com/', target: '_blank' })]
+	                }),
+	                _react2.default.createElement(_List.ListItem, {
+	                    primaryText: 'Animated Algorithms',
+	                    secondaryText: 'Animated sorting algorithms.',
+	                    primaryTogglesNestedList: true,
+	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/algorithms/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/algorithms', target: '_blank' })]
 	                })
 	            )
 	        )

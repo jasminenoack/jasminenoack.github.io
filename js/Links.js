@@ -79,6 +79,15 @@ const CardExampleWithoutAvatar = () => (
                     <ListItem key="live" className="live" primaryText="live" href="http://golang-images.herokuapp.com/" target="_blank"/>,
                 ]}
           />
+          <ListItem
+                primaryText="Animated Algorithms"
+                secondaryText="Animated sorting algorithms."
+                primaryTogglesNestedList={true}
+                nestedItems={[
+                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/algorithms/" target="_blank"/>,
+                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/algorithms" target="_blank"/>
+                ]}
+          />
         </List>
     </CardText>
   </Card>
