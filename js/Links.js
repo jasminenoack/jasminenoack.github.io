@@ -22,8 +22,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryTextColor="#ECEFF1"
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/bejeweled/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/bejeweled/" target="_blank"/>
+                    <a key="live" className="live" href="http://jasminenoack.com/bejeweled/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" href="https://github.com/jasminenoack/bejeweled/"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -31,8 +31,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="A sudoku solver built in Rails."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://sudoku-on-rails.herokuapp.com" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/sudoku-app" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://sudoku-on-rails.herokuapp.com"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/sudoku-app"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -40,8 +40,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="A clone of a classic tiger electronics game."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/lights-out/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/lights-out" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://jasminenoack.com/lights-out/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/lights-out"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -49,8 +49,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="A very bad sudoku algorithm but it's nice to watch."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/zenmapping/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/zenmapping" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://jasminenoack.com/zenmapping/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/zenmapping"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -58,8 +58,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="An implementation of a math based puzzle game."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/trigons/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/trigons" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://jasminenoack.com/trigons/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/trigons"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -67,8 +67,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="Simple game of life visualization."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/conways_game_of_life/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/conways_game_of_life" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://jasminenoack.com/conways_game_of_life/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/conways_game_of_life"><ListItem>Code</ListItem></a>
                 ]}
           />
           <ListItem
@@ -76,7 +76,7 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="Simple gif generator to get a feel for Go."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://golang-images.herokuapp.com/" target="_blank"/>,
+                    <a key="live" className="live" primaryText="live" href="http://golang-images.herokuapp.com/"><ListItem>Live</ListItem></a>,
                 ]}
           />
           <ListItem
@@ -84,8 +84,8 @@ const CardExampleWithoutAvatar = () => (
                 secondaryText="Animated sorting algorithms."
                 primaryTogglesNestedList={true}
                 nestedItems={[
-                    <ListItem key="live" className="live" primaryText="live" href="http://jasminenoack.com/algorithms/" target="_blank"/>,
-                    <ListItem key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/algorithms" target="_blank"/>
+                    <a key="live" className="live" primaryText="live" href="http://jasminenoack.com/algorithms/"><ListItem>Live</ListItem></a>,
+                    <a key="code" className="code" primaryText="code" href="https://github.com/jasminenoack/algorithms"><ListItem>Code</ListItem></a>
                 ]}
           />
         </List>

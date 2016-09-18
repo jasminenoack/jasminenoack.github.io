@@ -42468,49 +42468,169 @@
 	                    secondaryText: 'The classic gem swapping game in javaScript.',
 	                    secondaryTextColor: '#ECEFF1',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/bejeweled/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/bejeweled/', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', href: 'http://jasminenoack.com/bejeweled/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', href: 'https://github.com/jasminenoack/bejeweled/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Sudoku',
 	                    secondaryText: 'A sudoku solver built in Rails.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://sudoku-on-rails.herokuapp.com', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/sudoku-app', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://sudoku-on-rails.herokuapp.com' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/sudoku-app' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Lights Out',
 	                    secondaryText: 'A clone of a classic tiger electronics game.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/lights-out/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/lights-out', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/lights-out/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/lights-out' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Something a little zen',
 	                    secondaryText: 'A very bad sudoku algorithm but it\'s nice to watch.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/zenmapping/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/zenmapping', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/zenmapping/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/zenmapping' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Trigons',
 	                    secondaryText: 'An implementation of a math based puzzle game.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/trigons/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/trigons', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/trigons/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/trigons' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Conway\'s Game of Life',
 	                    secondaryText: 'Simple game of life visualization.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/conways_game_of_life/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/conways_game_of_life', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/conways_game_of_life/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/conways_game_of_life' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Go gif generator',
 	                    secondaryText: 'Simple gif generator to get a feel for Go.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://golang-images.herokuapp.com/', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://golang-images.herokuapp.com/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    )]
 	                }),
 	                _react2.default.createElement(_List.ListItem, {
 	                    primaryText: 'Animated Algorithms',
 	                    secondaryText: 'Animated sorting algorithms.',
 	                    primaryTogglesNestedList: true,
-	                    nestedItems: [_react2.default.createElement(_List.ListItem, { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/algorithms/', target: '_blank' }), _react2.default.createElement(_List.ListItem, { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/algorithms', target: '_blank' })]
+	                    nestedItems: [_react2.default.createElement(
+	                        'a',
+	                        { key: 'live', className: 'live', primaryText: 'live', href: 'http://jasminenoack.com/algorithms/' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Live'
+	                        )
+	                    ), _react2.default.createElement(
+	                        'a',
+	                        { key: 'code', className: 'code', primaryText: 'code', href: 'https://github.com/jasminenoack/algorithms' },
+	                        _react2.default.createElement(
+	                            _List.ListItem,
+	                            null,
+	                            'Code'
+	                        )
+	                    )]
 	                })
 	            )
 	        )
