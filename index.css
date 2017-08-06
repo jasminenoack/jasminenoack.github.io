@@ -1,0 +1,40 @@
+.c-nav li {
+    color: #fff
+}
+
+.c-card+.c-card, .c-card {
+    margin: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.c-nav {
+    position: fixed;
+    top: 0;
+}
+
+html,body {
+    background: aliceblue;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.content {
+    height: 100%;
+    overflow: auto;
+}
+
+#links a {
+    display: block;
+}
