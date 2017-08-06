@@ -22,12 +22,11 @@ img {
 
 html,body {
     background: aliceblue;
-    overflow: hidden;
     height: 100%;
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .content {
