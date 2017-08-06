@@ -33,6 +33,6 @@ body {
     overflow: auto;
 }
 
-#links a {
-    display: block;
+#links p {
+    display: inline;
 }
